@@ -1,0 +1,171 @@
+body{
+
+    margin: auto;
+    padding: auto;
+    background: #151515;
+}
+.main{
+
+    margin: auto;
+    height: 800px;
+    width: 1000px;
+    border-radius: 20px;
+    background: #1d1d1d;
+
+}
+.logo{
+
+    float: left;
+
+}
+
+.logoAlura{
+
+    margin-top: 30%;
+    margin-left: 30%;
+
+}
+.text{
+
+    margin: auto;
+    height: 60%;
+    width: 65%;
+
+}
+.text-input{
+
+    float: left;
+    margin-top: 20%;
+    margin-right: 15%;
+    height: 60%;
+    width: 45%;
+    resize: none;
+    border: none;
+    outline: none;
+    word-wrap: break-word;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #00ff5a;
+    background: #151515;
+
+}
+.output-text{
+
+    float: right;
+    margin-top: -45%;
+    margin-left: 80%;
+    height: 60%;
+    width: 45%;
+    resize: none;
+    border: none;
+    outline: none;
+    word-wrap: break-word;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #00ff5a;
+    background: #151515;
+
+}
+.button{
+
+    float: auto;
+    margin: auto;
+    margin-left: 23%;
+    height: 23%;
+    width: 60%;
+
+}
+#encrypt-button{
+
+    height: 25%;
+    width: 30%;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 15px;
+    border-radius: 20px;
+    color: #151515;
+    background: #00ff5a;
+    border: #151515;
+    cursor: pointer;
+
+}
+#encrypt-button:hover{
+
+    color: #00ff5a;
+    background: #151515;
+    font-size: 15px;
+    transition: 0,5s;
+
+}
+#decrypt-button{
+
+    height: 25%;
+    width: 30%;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 15px;
+    border-radius: 20px;
+    color: #151515;
+    background: #00ff5a;
+    border: #151515;
+    cursor: pointer;
+
+}
+#decrypt-button:hover{
+
+    color: #00ff5a;
+    background: #151515;
+    font-size: 15px;
+    transition: 0,5s;
+    
+}
+#copy-button{
+
+    height: 25%;
+    width: 30%;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 15px;
+    border-radius: 20px;
+    color: #151515;
+    background: #00ff5a;
+    border: #151515;
+    cursor: pointer;
+
+}
+#copy-button:hover{
+
+    color: #00ff5a;
+    background: #151515;
+    font-size: 15px;
+    transition: 0,5s;
+    
+}
+textarea::placeholder {
+
+    color: #00ff5a;
+
+}
+footer {
+
+    color: #00ff5a;
+    width: 100%;
+    height: 100px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px; 
+    text-align: center;
+    margin-top: -9%;
+
+}
+.aviso{
+
+    color: #00ff5a;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px; 
+    margin-top: -27%;
+    opacity: 100%;
+
+
+}
